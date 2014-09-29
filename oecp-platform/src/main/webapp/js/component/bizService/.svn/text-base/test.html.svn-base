@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>组件服务注册</title>
+	<link rel="stylesheet" type="text/css"
+				href="../../../extjs/resources/css/ext-all.css" />
+	<script type="text/javascript" src="../../../js/context-path.jsp"></script>
+	<script type="text/javascript" src="../../../extjs/adapter/ext/ext-base-debug.js"></script>
+	<script type="text/javascript" src="../../../extjs/ext-all-debug.js"></script>
+	<script type="text/javascript" src="../../../extjs/ext-lang-zh_CN.js"></script>
+	
+	<script type="text/javascript" src="../../../extjs/src/widgets/form/Form.js"></script>
+	<script type="text/javascript" src="../../../extjs/src/widgets/form/BasicForm.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/Button.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/button/ButtonManager.js"></script>
+	<script type="text/javascript" src="../../../extjs/ux/CheckColumn.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/Adapter.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/GridRefField.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/combo/BCCombo.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/MasterDetailPanel.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/MasterDetailEditPanel.js"></script>
+		
+	<script type="text/javascript" src="../../../ext-oecp/core/ExtUtil.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/core/Toast.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/Button.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/GridPanel.js"></script>
+	<script type="text/javascript" src="../../../ext-oecp/ui/gridToExcel.js"></script>
+	<script type="text/javascript" src="../../context-path.jsp"></script>
+	<script type="text/javascript" src="../../App.js"></script>
+	<script type="text/javascript" src="BizServiceView.js"></script>
+	<script type="text/javascript">
+	Ext.onReady(function() {
+		var panel = new OECP.BizService.BizServiceView({
+			width : 800,
+			height : 600
+		});
+		panel.render("test");
+	});
+	</script>
+	
+</head>
+<body>
+	<div id="test"></div>
+</body>
+</html>

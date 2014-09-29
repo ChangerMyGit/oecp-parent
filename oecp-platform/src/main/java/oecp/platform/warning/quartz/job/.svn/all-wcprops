@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9344/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/quartz/job
+END
+WarningJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9187/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/quartz/job/WarningJob.java
+END
+TaskJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/9221/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/quartz/job/TaskJob.java
+END

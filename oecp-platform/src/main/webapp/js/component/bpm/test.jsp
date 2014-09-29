@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<%String path = request.getContextPath();
+		  String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+		 %>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td >
+					<table>
+						<tr rownap>
+							<td >
+								aaa<input type="text" value="aaaa"/>
+							</td>
+							<td >
+								aaa<input type="text" value="aaaa"/>
+							</td>
+						</tr>
+						<tr rownap>
+							<td >
+								aaa<input type="text" value="aaaa"/>
+							</td>
+							<td >
+								aaa<input type="text" value="aaaa"/>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		
+		
+	</body>
+</html>

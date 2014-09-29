@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/9457/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/auth/webservice
+END
+AuthService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/7665/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/auth/webservice/AuthService.java
+END
+OnlineUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/7665/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/auth/webservice/OnlineUser.java
+END
+AuthServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/9457/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/auth/webservice/AuthServiceImpl.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views
+END
+CalendarView.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/CalendarView.js
+END
+DayBodyView.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/DayBodyView.js
+END
+WeekView.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/WeekView.js
+END
+DayView.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/DayView.js
+END
+MonthView.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/MonthView.js
+END
+DayHeaderView.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/DayHeaderView.js
+END
+MonthDayDetailView.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/MonthDayDetailView.js
+END
+MultiWeekView.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/MultiWeekView.js
+END
+MultiDayView.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/views/MultiDayView.js
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/network/!svn/ver/9571/oecp-parent/oecp-platform/src/main/java/oecp/platform/role/service
+END
+RoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/role/service/RoleService.java
+END
+RoleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/9571/oecp-parent/oecp-platform/src/main/java/oecp/platform/role/service/RoleServiceImpl.java
+END
+OrgRoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9568/oecp-parent/oecp-platform/src/main/java/oecp/platform/role/service/OrgRoleService.java
+END
+OrgRoleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/9568/oecp-parent/oecp-platform/src/main/java/oecp/platform/role/service/OrgRoleServiceImpl.java
+END

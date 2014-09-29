@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/9570/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service
+END
+BizProDefinitionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/BizProDefinitionService.java
+END
+ProActivityServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/9563/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProActivityServiceImpl.java
+END
+BizProDefinitionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/BizProDefinitionServiceImpl.java
+END
+ProExecutionResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProExecutionResult.java
+END
+MyAgentUserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/8975/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/MyAgentUserService.java
+END
+ProExecutionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/8936/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProExecutionService.java
+END
+MyAgentUserServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/MyAgentUserServiceImpl.java
+END
+ProExecutionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/9555/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProExecutionServiceImpl.java
+END
+JbpmService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/9570/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/JbpmService.java
+END
+MyAgentUserListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/8984/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/MyAgentUserListener.java
+END
+ProDefinitionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/network/!svn/ver/9555/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProDefinitionService.java
+END
+JbpmServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9929/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/JbpmServiceImpl.java
+END
+ProDefinitionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/9563/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProDefinitionServiceImpl.java
+END
+ProActivityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9485/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/service/ProActivityService.java
+END

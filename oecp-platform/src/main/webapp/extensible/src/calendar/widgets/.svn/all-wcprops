@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets
+END
+CalendarList.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/CalendarList.js
+END
+AttendeeCombo.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/AttendeeCombo.js
+END
+CalendarCombo.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/CalendarCombo.js
+END
+ReminderField.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/ReminderField.js
+END
+CalendarListMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/CalendarListMenu.js
+END
+EventContextMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/EventContextMenu.js
+END
+ColorPalette.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/ColorPalette.js
+END
+RecurrenceCombo.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/RecurrenceCombo.js
+END
+DateRangeField.js
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/DateRangeField.js
+END
+RecurrenceField.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/widgets/RecurrenceField.js
+END

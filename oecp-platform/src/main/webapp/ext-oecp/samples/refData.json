@@ -1,0 +1,136 @@
+{
+	success : true,
+	msg : '',
+	totalCounts : 30,
+	result : [{
+				'id' : '1020',
+				'name' : '成人迪巧',
+				'packing' : '60片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1021',
+				'name' : '小儿迪巧',
+				'packing' : '1g*10袋/盒',
+				'inventory' : 15
+			}, {
+				'id' : '1022',
+				'name' : '女性迪巧',
+				'packing' : '40片/盒',
+				'inventory' : 18
+			}, {
+				'id' : '1023',
+				'name' : '女性迪巧3',
+				'packing' : '30片/盒',
+				'inventory' : 100
+			}, {
+				'id' : '1024',
+				'name' : '444',
+				'packing' : '40片/盒',
+				'inventory' : 55
+			}, {
+				'id' : '1025',
+				'name' : '555',
+				'packing' : '40片/盒',
+				'inventory' : 88
+			}, {
+				'id' : '1026',
+				'name' : '666',
+				'packing' : '40片/盒',
+				'inventory' : 99
+			}, {
+				'id' : '1026',
+				'name' : '777',
+				'packing' : '40片/盒',
+				'inventory' : 78
+			}, {
+				'id' : '1028',
+				'name' : '888',
+				'packing' : '40片/盒',
+				'inventory' : 17
+			}, {
+				'id' : '1029',
+				'name' : '999',
+				'packing' : '40片/盒',
+				'inventory' : 101
+			}, {
+				'id' : '1030',
+				'name' : '3131',
+				'packing' : '40片/盒',
+				'inventory' : 41
+			}, {
+				'id' : '1031',
+				'name' : '9001',
+				'packing' : '40片/盒',
+				'inventory' : 36
+			}, {
+				'id' : '1032',
+				'name' : '121313',
+				'packing' : '40片/盒',
+				'inventory' : 66
+			}, {
+				'id' : '1033',
+				'name' : '33',
+				'packing' : '40片/盒',
+				'inventory' : 85
+			}, {
+				'id' : '1034',
+				'name' : '34',
+				'packing' : '40片/盒',
+				'inventory' : 33
+			}, {
+				'id' : '1035',
+				'name' : '35',
+				'packing' : '40片/盒',
+				'inventory' : 21
+			}, {
+				'id' : '1036',
+				'name' : '36',
+				'packing' : '40片/盒',
+				'inventory' : 32
+			}, {
+				'id' : '1037',
+				'name' : '37',
+				'packing' : '40片/盒',
+				'inventory' : 70
+			}, {
+				'id' : '1038',
+				'name' : '38',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1039',
+				'name' : '39',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1040',
+				'name' : '40',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1041',
+				'name' : '41',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1042',
+				'name' : '42',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1043',
+				'name' : '43',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1044',
+				'name' : '44',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}, {
+				'id' : '1045',
+				'name' : '45',
+				'packing' : '40片/盒',
+				'inventory' : 10
+			}]
+}

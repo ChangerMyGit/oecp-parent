@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9471/oecp-parent/oecp-platform/src/main/patch/com/alibaba/fastjson/serializer
+END
+JavaBeanSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9471/oecp-parent/oecp-platform/src/main/patch/com/alibaba/fastjson/serializer/JavaBeanSerializer.java
+END
+DateSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9096/oecp-parent/oecp-platform/src/main/patch/com/alibaba/fastjson/serializer/DateSerializer.java
+END
+DataVOSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/9160/oecp-parent/oecp-platform/src/main/patch/com/alibaba/fastjson/serializer/DataVOSerializer.java
+END
+OECPJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9160/oecp-parent/oecp-platform/src/main/patch/com/alibaba/fastjson/serializer/OECPJSONSerializer.java
+END

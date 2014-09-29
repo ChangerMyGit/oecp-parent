@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice
+END
+PermissionAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice/PermissionAPI.java
+END
+FunctionUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice/FunctionUI.java
+END
+PermissionAPIImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice/PermissionAPIImpl.java
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice/Function.java
+END
+UIElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice/UIElement.java
+END
+DataField.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/7668/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/permission/webservice/DataField.java
+END

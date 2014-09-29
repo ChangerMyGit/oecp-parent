@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/9135/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/chart
+END
+SimpleChartTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9120/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/chart/SimpleChartTypeEnum.java
+END
+SimpleChartAPIImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/8970/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/chart/SimpleChartAPIImpl.java
+END
+ChartAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9135/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/chart/ChartAPI.java
+END

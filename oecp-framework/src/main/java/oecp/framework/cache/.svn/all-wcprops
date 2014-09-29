@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache
+END
+EhCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache/EhCache.java
+END
+CacheException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache/CacheException.java
+END
+Cache.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache/Cache.java
+END
+EhCacheProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache/EhCacheProvider.java
+END
+CacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache/CacheManager.java
+END
+CacheProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/cache/CacheProvider.java
+END

@@ -1,0 +1,43 @@
+10
+
+dir
+9769
+http://192.168.0.25/svn/network/oecp-parent/oecp-platform/src/main/java/oecp/bcbase
+http://192.168.0.25/svn/network
+
+
+
+2014-04-28T00:57:46.046875Z
+9753
+luanyoubo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6ced2a52-7b10-d444-a89e-05ef45422b1d
+
+service
+dir
+
+utils
+dir
+
+eo
+dir
+
+enums
+dir
+
+web
+dir
+

@@ -1,0 +1,37 @@
+/** 背景图为【刷新】图片 */
+.x-form-ref-trigger {
+	background-image: url(../images/ref.png);
+}
+
+/** 背景图为【添加】图片 */
+.x-btn-add-trigger {
+	background-image: url(../../images/system/add_16.gif);
+}
+
+/** 背景图为【查询】图片 */
+.x-btn-query-trigger {
+	background-image: url(../../images/btn/query.gif);
+}
+
+/** 背景图为【编辑】图片 */
+.x-btn-edit-trigger {
+	background-image: url(../../images/btn/edit.gif);
+}
+
+/** 背景图为【删除】图片 */
+.x-btn-del-trigger {
+	background-image: url(../../images/btn/remove.png);
+}
+
+/** 背景图为【打印】图片 */
+.x-btn-print-trigger {
+	background-image: url(../../images/btn/print.png);
+}
+/** 背景图为【眼睛】图片-用于预览 */
+.x-btn-preview-trigger {
+	background-image: url(../../images/btn/eyes.png);
+}
+/** 背景图为【添加人】图片-用于分配或授权 */
+.x-btn-assign-trigger {
+	background-image: url(../../images/btn/mail/mail_recipient.png);
+}

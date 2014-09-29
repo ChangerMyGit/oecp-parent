@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/9706/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/interceptor
+END
+AuthorityIntercepter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/9468/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/interceptor/AuthorityIntercepter.java
+END
+ExceptionInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/8729/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/interceptor/ExceptionInterceptor.java
+END
+ActionEventInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/network/!svn/ver/9770/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/interceptor/ActionEventInterceptor.java
+END

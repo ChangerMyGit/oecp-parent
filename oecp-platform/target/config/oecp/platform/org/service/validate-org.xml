@@ -1,0 +1,94 @@
+<!DOCTYPE form-validation PUBLIC
+     "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN"
+     "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+     
+<form-validation>
+<global>
+
+      <validator name="orgNoChild"
+            classname="oecp.platform.org.service.OrgValidator"
+               method="orgNoChild"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.orgNoChild">
+      </validator>
+      <validator name="orgUsedBC"
+            classname="oecp.platform.org.service.OrgValidator"
+               method="orgUsedBC"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.orgUsed">
+      </validator>
+      <validator name="orgCode"
+            classname="oecp.platform.org.service.OrgValidator"
+               method="orgCode"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.orgCode">
+      </validator>
+      <validator name="orgName"
+            classname="oecp.platform.org.service.OrgValidator"
+               method="orgName"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.orgName">
+      </validator>
+                  
+</global>
+
+   <formset>
+      <form name="update">
+         <field property="code"  depends="required,minlength,orgCode">
+      	   	<arg0 key="org.code"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>3</var-value>   
+            </var>  
+         </field>    
+         <field  property="name" depends="required,minlength,orgName">
+      	   	<arg key="org.name"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>
+                <var-name>minlength</var-name>
+                <var-value>3</var-value>   
+            </var>  
+         </field>
+      </form>
+      <form name="create">
+         <field property="code"  depends="required,minlength,orgCode">
+      	   	<arg0 key="org.code"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>3</var-value>   
+            </var>  
+         </field>    
+         <field  property="name" depends="required,minlength,orgName">
+      	   	<arg key="org.name"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>
+                <var-name>minlength</var-name>
+                <var-value>3</var-value>   
+            </var>  
+         </field>
+      </form>
+      <form name="delete">
+         <field property="id" depends="orgNoChild,orgUsedBC">
+         	<arg0 key="不允许删除！" />
+         </field>
+      </form>
+   </formset>   
+</form-validation>

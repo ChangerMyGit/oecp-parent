@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<bean type="ognl.PropertyAccessor" name="oecp.framework.vo.base.DataVO" class="oecp.framework.ognl.accessor.DataVOPropertyAccessor" />
+	<constant name="struts.convention.package.locators" value="web,action" />
+	<constant name="struts.convention.action.includeJars" value=".*lib/oecp-(?!(framework)|(esb)|(util)).*?jar(!/)?" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.convention.default.parent.package"
+		value="default-package" />
+	<constant name="struts.convention.package.locators" value="web" />
+	<constant name="struts.convention.classes.reload" value="true" />
+	<package name="default-package" extends="convention-default">
+		<interceptors>
+			<interceptor name="exception" class="exceptionInterceptor" />
+			<interceptor name="authority" class="authorityIntercepter" />
+			<interceptor name="actionEvent" class="actionEventInterceptor" />
+			<interceptor-stack name="oecpDefaultStack">
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="exception" />
+				<interceptor-ref name="authority" />
+				<interceptor-ref name="actionEvent" />
+			</interceptor-stack>
+			<interceptor-stack name="indexStack">
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="exception" />
+				<interceptor-ref name="authority">
+					<param name="result">login</param>
+				</interceptor-ref>
+				<interceptor-ref name="actionEvent" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="oecpDefaultStack" />
+	</package>
+</struts>

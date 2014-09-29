@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/network/!svn/ver/9761/oecp-parent/oecp-platform/src/main/config
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/ehcache.xml
+END
+jbpm.tx.spring.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/jbpm.tx.spring.cfg.xml
+END
+applicationcontext.xml-Oracle版本
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/config/applicationcontext.xml-Oracle%E7%89%88%E6%9C%AC
+END
+quartz.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/network/!svn/ver/9443/oecp-parent/oecp-platform/src/main/config/quartz.properties
+END
+applicationcontext-mem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/9213/oecp-parent/oecp-platform/src/main/config/applicationcontext-mem.xml
+END
+quartz.properties-SQL版本
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/config/quartz.properties-SQL%E7%89%88%E6%9C%AC
+END
+jbpm.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/jbpm.cfg.xml
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/xwork-conversion.properties
+END
+quartz.properties-Oracle版本
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/config/quartz.properties-Oracle%E7%89%88%E6%9C%AC
+END
+applicationcontext-quartz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/9363/oecp-parent/oecp-platform/src/main/config/applicationcontext-quartz.xml
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/struts.properties
+END
+BCDeploy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/network/!svn/ver/9482/oecp-parent/oecp-platform/src/main/config/BCDeploy.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/network/!svn/ver/9649/oecp-parent/oecp-platform/src/main/config/struts.xml
+END
+mule-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/mule-config.xml
+END
+jbpm.mail.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/jbpm.mail.properties
+END
+jbpm.mail.templates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/jbpm.mail.templates.xml
+END
+applicationcontext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/network/!svn/ver/9649/oecp-parent/oecp-platform/src/main/config/applicationcontext.xml
+END
+applicationcontext .xml-SQL版本
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9443/oecp-parent/oecp-platform/src/main/config/applicationcontext%20.xml-SQL%E7%89%88%E6%9C%AC
+END
+app.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/network/!svn/ver/9259/oecp-parent/oecp-platform/src/main/config/app.properties
+END
+api-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/api-config.xml
+END
+weather-forecast.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/weather-forecast.wsdl
+END
+app-config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/app-config.properties
+END

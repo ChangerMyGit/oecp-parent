@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/9371/oecp-parent/oecp-framework/src/main/java/oecp/framework/vo/base
+END
+BaseNormalVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/7900/oecp-parent/oecp-framework/src/main/java/oecp/framework/vo/base/BaseNormalVO.java
+END
+SimpleDataVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/9371/oecp-parent/oecp-framework/src/main/java/oecp/framework/vo/base/SimpleDataVO.java
+END
+BaseNormalVOUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/7955/oecp-parent/oecp-framework/src/main/java/oecp/framework/vo/base/BaseNormalVOUtility.java
+END
+DataVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/network/!svn/ver/7851/oecp-parent/oecp-framework/src/main/java/oecp/framework/vo/base/DataVO.java
+END

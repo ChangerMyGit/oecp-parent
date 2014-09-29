@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/exception
+END
+DataErrorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/exception/DataErrorException.java
+END
+BizException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/exception/BizException.java
+END

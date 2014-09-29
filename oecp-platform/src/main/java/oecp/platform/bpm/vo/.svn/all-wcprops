@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/network/!svn/ver/9402/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo
+END
+ProcessInstanceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/8778/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/ProcessInstanceInfo.java
+END
+HistoryTaskInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/8936/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/HistoryTaskInfo.java
+END
+TransitionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/TransitionBean.java
+END
+HistoryInstanceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/HistoryInstanceInfo.java
+END
+VirProcessDefinitionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/7790/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/VirProcessDefinitionInfo.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/Node.java
+END
+ProDefinitionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/8877/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/ProDefinitionInfo.java
+END
+VirTaskActivityInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/VirTaskActivityInfo.java
+END
+TaskInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/9402/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/vo/TaskInfo.java
+END

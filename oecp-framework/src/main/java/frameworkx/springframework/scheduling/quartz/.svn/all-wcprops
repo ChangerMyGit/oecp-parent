@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/9056/oecp-parent/oecp-framework/src/main/java/frameworkx/springframework/scheduling/quartz
+END
+MethodInvokingJobDetailFactoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/network/!svn/ver/9056/oecp-parent/oecp-framework/src/main/java/frameworkx/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.java
+END
+BeanInvokingJobDetailFactoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/network/!svn/ver/9056/oecp-parent/oecp-framework/src/main/java/frameworkx/springframework/scheduling/quartz/BeanInvokingJobDetailFactoryBean.java
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9056/oecp-parent/oecp-framework/src/main/java/frameworkx/springframework/scheduling/quartz/readme.txt
+END

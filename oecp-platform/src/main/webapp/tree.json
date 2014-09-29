@@ -1,0 +1,101 @@
+[{
+			id : "1",
+			text : "测试组件1",
+			children : [{
+						"id" : "11",
+						"children" : [],
+						"leaf" : true,
+						"text" : "产品列表"
+					}
+					, {
+						"id" : "51",
+						"children" : [{
+									"id" : "11",
+									"children" : [],
+									"leaf" : true,
+									"text" : "产品列表"
+								}, {
+									"id" : "21",
+									"children" : [],
+									"leaf" : true,
+									"text" : "质量等级"
+								}, {
+									"id" : "31",
+									"children" : [{
+												"id" : "61",
+												"children" : [],
+												"leaf" : true,
+												"text" : "供应商"
+											}, {
+												"id" : "71",
+												"children" : [],
+												"leaf" : true,
+												"text" : "客户"
+											}, {
+												"id" : "81",
+												"children" : [],
+												"leaf" : true,
+												"text" : "客商"
+											}],
+									"leaf" : false,
+									"text" : "客户档案"
+								}, {
+									"id" : "41",
+									"children" : [],
+									"leaf" : true,
+									"text" : "原材料档案"
+								}],
+						"leaf" : false,
+						"text" : "基本档案"
+					}
+					]
+		}, {
+			id : "c2",
+			text : "测试组件2",
+			children : [{
+						"id" : "1",
+						"children" : [],
+						"leaf" : true,
+						"text" : "产品列表"
+					}, {
+						"id" : "5",
+						"children" : [{
+									"id" : "1",
+									"children" : [],
+									"leaf" : true,
+									"text" : "产品列表"
+								}, {
+									"id" : "2",
+									"children" : [],
+									"leaf" : true,
+									"text" : "质量等级"
+								}, {
+									"id" : "3",
+									"children" : [{
+												"id" : "6",
+												"children" : [],
+												"leaf" : true,
+												"text" : "供应商"
+											}, {
+												"id" : "7",
+												"children" : [],
+												"leaf" : true,
+												"text" : "客户"
+											}, {
+												"id" : "8",
+												"children" : [],
+												"leaf" : true,
+												"text" : "客商"
+											}],
+									"leaf" : false,
+									"text" : "客户档案"
+								}, {
+									"id" : "4",
+									"children" : [],
+									"leaf" : true,
+									"text" : "原材料档案"
+								}],
+						"leaf" : false,
+						"text" : "基本档案"
+					}]
+		}]

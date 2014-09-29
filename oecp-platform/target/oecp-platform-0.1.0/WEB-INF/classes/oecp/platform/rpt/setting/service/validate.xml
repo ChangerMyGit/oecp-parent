@@ -1,0 +1,101 @@
+<!DOCTYPE form-validation PUBLIC
+     "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN"
+     "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+     
+<form-validation>
+<global>
+
+      <validator name="code"
+            classname="oecp.platform.rpt.setting.service.ReportSettingValidator"
+               method="checkcode"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.code">
+      </validator>
+      <validator name="dataroot"
+            classname="oecp.platform.rpt.setting.service.ReportSettingValidator"
+               method="checkdataroot"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.dataroot">
+      </validator>
+      <validator name="dataindex"
+            classname="oecp.platform.rpt.setting.service.ReportSettingValidator"
+               method="checkFieldDataindex"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.dataindex">
+      </validator>
+      <validator name="fixcon"
+            classname="oecp.platform.rpt.setting.service.ReportSettingValidator"
+               method="checkFixConditions"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.fixcon">
+      </validator>
+</global>
+
+   <formset>
+      <form name="save">
+         <field property="code"  depends="required,code">
+      	   	<arg0 key="rpt.code"/>
+         </field>    
+         <field  property="name" depends="required">
+      	   	<arg key="rpt.name"/>
+         </field>
+         <field  property="daobeanname" depends="required">
+      	   	<arg key="rpt.daobeanname"/>
+         </field>
+         <field  property="qltype" depends="required">
+      	   	<arg key="rpt.qltype"/>
+         </field>
+         <field  property="qlstr" depends="required,minlength">
+      	   	<arg key="rpt.qlstr"/>
+      	   	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>20</var-value>   
+            </var> 
+         </field>
+         <field  property="queryscheme.code" depends="required,code">
+      	   	<arg key="rpt.queryscheme.code"/>
+         </field>
+         <field  property="queryscheme.name" depends="required">
+      	   	<arg key="rpt.queryscheme.name"/>
+         </field>
+         <field  property="queryscheme" depends="fixcon">
+      	   	<arg key="rpt.queryscheme.fixcon"/>
+         </field>
+         <field  property="view" depends="required">
+      	   	<arg key="rpt.view"/>
+         </field>
+         <field  property="view.code" depends="required,code">
+      	   	<arg key="rpt.view.code"/>
+         </field>
+         <field  property="view.title" depends="required">
+      	   	<arg key="rpt.view.title"/>
+         </field>
+         <field  property="view.mainuivo" depends="required">
+      	   	<arg key="rpt.view.mainuivo"/>
+         </field>
+         <field  property="view.mainuivo.dataroot" depends="dataroot">
+      	   	<arg key="rpt.view.mainuivo.dataroot"/>
+         </field>
+         <field  property="view.mainuivo.dataindex" depends="dataindex">
+      	   	<arg key="rpt.view.mainuivo.field"/>
+         </field>
+      </form>
+   </formset>   
+</form-validation>

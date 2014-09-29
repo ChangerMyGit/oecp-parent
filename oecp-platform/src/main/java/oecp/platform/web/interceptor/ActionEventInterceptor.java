@@ -1,0 +1,97 @@
+/**
+ * oecp-platform - ActionEventInterceptor.java
+ * copyright 2009-2012 OECP www.oecp.cn
+ * 创建人:luanyoubo	创建时间:下午1:27:55		版本:v1
+ * ============================================
+ * 修改人：			修改时间:					版本:
+ * 修改原因:
+ *
+ * ============================================
+ */
+
+package oecp.platform.web.interceptor;
+
+import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Method;
+import java.net.URLEncoder;
+import java.util.Date;
+import java.util.regex.Pattern;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import oecp.framework.dao.DAO;
+import oecp.framework.exception.BizException;
+import oecp.platform.base.interceptor.BaseInterceptor;
+import oecp.platform.event.eo.ActionEventLog;
+import oecp.platform.web.WebContext;
+import oecp.platform.web.annotation.EventDescription;
+
+import org.apache.struts2.ServletActionContext;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import com.alibaba.fastjson.JSON;
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionInvocation;
+
+/**
+ * 拦截器日志
+ * @author luanyoubo
+ * @date 2014年3月11日 下午1:27:55
+ * @version 1.0
+ * 
+ */
+@Component(value = "actionEventInterceptor")
+@Scope("prototype")
+public class ActionEventInterceptor extends BaseInterceptor {
+	private static final long serialVersionUID = -4749708597724775557L;
+	@Override
+	public String intercept(ActionInvocation invocation) throws Exception {
+        String result = "";
+        try {
+			result = invocation.invoke();
+			try {
+				// 获取拦截方法
+				Method method = getInvacotionMethod(invocation);
+				// 已save update del 开头的方法 
+				if (method != null&& Pattern.matches("^(save|update|del).*$",method.getName())) {
+					EventDescription des = method.getAnnotation(EventDescription.class);
+					String ipAddress = ServletActionContext.getRequest().getRemoteAddr();
+					// 保存操作日志
+					ActionEventLog log = new ActionEventLog();
+					log.setEventDes(des!=null?des.value():method.getName());
+					log.setOperator(WebContext.getCurrentUser().getUser().getName());
+					log.setArgs(JSON.toJSONString(invocation.getInvocationContext().getParameters()));
+					log.setOperateDate(new Date());
+					log.setIpAddress(ipAddress);
+					DAO dao = (DAO) getSpringApplicationContext().getBean("platformDao");
+					dao.create(log);
+				}
+			} catch (Exception e) {
+				result="exception";
+				throw new BizException(e.getMessage());
+			}
+		}  catch (Exception ex) {
+			result="exception";
+			//handlingException(invocation, ex);
+			ex.printStackTrace();
+			throw new BizException(ex.getMessage());
+		}
+		return result;
+	}
+	
+
+	/*public void handlingException(ActionInvocation invocation, Exception e) throws UnsupportedEncodingException {
+		e.printStackTrace();
+		ActionContext ctx = invocation.getInvocationContext();
+		HttpServletRequest request = (HttpServletRequest) ctx
+				.get(ServletActionContext.HTTP_REQUEST);
+		HttpServletResponse response = (HttpServletResponse) ctx
+				.get(ServletActionContext.HTTP_RESPONSE);
+			
+		response.addHeader(STATUS_CODE, URLEncoder.encode(e.getMessage()==null? "无错误消息":e.getMessage(),
+				"UTF-8"));
+		request.setAttribute("exception", e);
+	}*/
+}

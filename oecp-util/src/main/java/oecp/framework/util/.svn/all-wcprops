@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/network/!svn/ver/9553/oecp-parent/oecp-util/src/main/java/oecp/framework/util
+END
+FreeMarkerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/network/!svn/ver/9355/oecp-parent/oecp-util/src/main/java/oecp/framework/util/FreeMarkerUtil.java
+END
+PHPSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/9353/oecp-parent/oecp-util/src/main/java/oecp/framework/util/PHPSerializer.java
+END
+MD5Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/9400/oecp-parent/oecp-util/src/main/java/oecp/framework/util/MD5Util.java
+END
+DES4PHP.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/9370/oecp-parent/oecp-util/src/main/java/oecp/framework/util/DES4PHP.java
+END
+RandomGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/9304/oecp-parent/oecp-util/src/main/java/oecp/framework/util/RandomGenerator.java
+END
+DESUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/9368/oecp-parent/oecp-util/src/main/java/oecp/framework/util/DESUtil.java
+END
+PropertiesUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/network/!svn/ver/9352/oecp-parent/oecp-util/src/main/java/oecp/framework/util/PropertiesUtil.java
+END
+ReflectionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/9483/oecp-parent/oecp-util/src/main/java/oecp/framework/util/ReflectionUtils.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/9553/oecp-parent/oecp-util/src/main/java/oecp/framework/util/Constants.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/9384/oecp-parent/oecp-util/src/main/java/oecp/framework/util/FileUtil.java
+END

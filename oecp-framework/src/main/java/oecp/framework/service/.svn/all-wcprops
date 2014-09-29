@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/9581/oecp-parent/oecp-framework/src/main/java/oecp/framework/service
+END
+BaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/service/BaseService.java
+END
+BaseServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9990/oecp-parent/oecp-framework/src/main/java/oecp/framework/service/BaseServiceImpl.java
+END

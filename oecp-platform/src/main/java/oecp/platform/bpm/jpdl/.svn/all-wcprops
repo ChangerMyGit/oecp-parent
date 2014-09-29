@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/network/!svn/ver/9118/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl
+END
+JpdlModelDrawer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/JpdlModelDrawer.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/Test.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/Node.java
+END
+JpdlModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/JpdlModel.java
+END
+Transition.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/Transition.java
+END
+GeometryUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/GeometryUtils.java
+END
+JpdlModelContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/7601/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/jpdl/JpdlModelContainer.java
+END

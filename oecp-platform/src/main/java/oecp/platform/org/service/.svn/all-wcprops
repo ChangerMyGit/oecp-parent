@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/9637/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service
+END
+DeptServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9568/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/DeptServiceImpl.java
+END
+OrgUseBCListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/8982/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/OrgUseBCListener.java
+END
+PostService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/7975/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/PostService.java
+END
+PersonService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9000/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/PersonService.java
+END
+OrgService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/9562/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/OrgService.java
+END
+PostServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9450/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/PostServiceImpl.java
+END
+PersonServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9000/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/PersonServiceImpl.java
+END
+OrgServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/9637/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/OrgServiceImpl.java
+END
+DeptService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/9568/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/DeptService.java
+END
+OrgValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/org/service/OrgValidator.java
+END

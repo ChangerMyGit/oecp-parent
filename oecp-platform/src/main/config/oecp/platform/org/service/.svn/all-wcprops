@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/oecp/platform/org/service
+END
+applicationcontext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/oecp/platform/org/service/applicationcontext.xml
+END
+validatortestResources_zh_CN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/oecp/platform/org/service/validatortestResources_zh_CN.properties
+END
+validate-org.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/8999/oecp-parent/oecp-platform/src/main/config/oecp/platform/org/service/validate-org.xml
+END

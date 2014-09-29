@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Sample AnyChart Flash Chart</title>
+    <script type="text/javascript" language="javascript" src="./js/AnyChart.js"></script>
+        <script type="text/javascript" language="javascript">
+	    var chartData = {
+	    	settings :{animation:{enabled:true}}, // 动画效果
+		    "charts": {
+		        "chart": [{
+		            "chart_settings": {
+		                "title": {
+		                    "text": "测试01"
+		                },
+		               
+		                legend:{ //图例
+		                	legend:true,
+			                title:{enabled:true,text:'图例'},
+			                items:{
+			                	item:{
+			                		source:'Points'
+			                	}
+			                }
+		                }
+		            },
+		           data_plot_settings:{
+		           		//default_series_type:"Bubble",
+		           		"enable_3d_mode":true, // 3D模式
+		           		bar_series:{tooltip_settings:{'enabled':true,format:'{%Name} {%YValue}'},label_settings:{'enabled':true,format:'{%Name}'}} // 提示信息和标签
+		           },
+		           plot_type:'CategorizedVertical',
+		            "data": {
+		                "series": [
+		                    {	"name" : "区域","type":"type",
+		                        "point": [
+		                            {"name": "Jan", "y": '21'},
+		                            {"name": "Feb", "y": '23'},
+		                            {"name": "Mar", "y": '31'},
+		                            {"name": "Apr", "y": '34'},
+		                            {"name": "May", "y": '45'}
+		                        ]
+		                    }
+		                ]
+		            }
+		        }]
+		    }
+		};
+		function onAction(a,b,c,d,e,f,g,h){
+			console.log(a);
+			return true;
+		}
+		
+		var chart = new AnyChart('./swf/AnyChart.swf','./swf/Preloader.swf');
+		chart.wMode = "transparent";
+		chart.messages = {
+                preloaderInit: "预加载初始化中... ",
+                preloaderLoading: "加载中... ",
+                init: "初始化...",
+                loadingConfig: "加载配置中...",
+                loadingResources: "加载资源中...",
+                loadingTemplates: "加载模板中...",
+                noData: "没有数据...",
+                waitingForData: "等待数据中..."
+            };
+		chart.width = 600;
+		chart.height = 300;
+		chart.setJSONData(chartData);
+		
+		chart.write();
+		chart.addEventListener('pointClick',onAction);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

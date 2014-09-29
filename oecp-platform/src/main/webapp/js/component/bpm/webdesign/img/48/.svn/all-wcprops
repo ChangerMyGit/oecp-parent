@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/network/!svn/ver/9574/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48
+END
+end_event_cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/end_event_cancel.png
+END
+start_event_empty.png
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/start_event_empty.png
+END
+decision.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/decision.png
+END
+gateway_parallel.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/gateway_parallel.png
+END
+end_event_terminate.png
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/end_event_terminate.png
+END
+flow_sequence.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/flow_sequence.png
+END
+end_event_error.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/end_event_error.png
+END
+task_empty.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/task_empty.png
+END
+task_sql.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/task_sql.png
+END
+task_java.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/task_java.png
+END
+task_hql.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/task_hql.png
+END
+task_wait.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/task_wait.png
+END
+gateway_exclusive.png
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/network/!svn/ver/7419/oecp-parent/oecp-platform/src/main/webapp/js/component/bpm/webdesign/img/48/gateway_exclusive.png
+END

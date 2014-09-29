@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/network/!svn/ver/8664/oecp-parent/oecp-framework/src/main/java/oecp/framework/entity/base
+END
+StringPKGen4EO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/entity/base/StringPKGen4EO.java
+END
+StringPKEO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7745/oecp-parent/oecp-framework/src/main/java/oecp/framework/entity/base/StringPKEO.java
+END
+NumberPKEO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7689/oecp-parent/oecp-framework/src/main/java/oecp/framework/entity/base/NumberPKEO.java
+END
+ManualPKEO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/entity/base/ManualPKEO.java
+END
+BaseEO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/9990/oecp-parent/oecp-framework/src/main/java/oecp/framework/entity/base/BaseEO.java
+END

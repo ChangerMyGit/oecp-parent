@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/8993/oecp-parent/oecp-platform/src/main/java/oecp/platform/datapermission/service
+END
+DataPermissionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/datapermission/service/DataPermissionService.java
+END
+DataPermissionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/network/!svn/ver/8993/oecp-parent/oecp-platform/src/main/java/oecp/platform/datapermission/service/DataPermissionServiceImpl.java
+END
+DataDiscretePermissionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/datapermission/service/DataDiscretePermissionService.java
+END
+DataDiscretePermissionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/datapermission/service/DataDiscretePermissionServiceImpl.java
+END

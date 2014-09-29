@@ -1,0 +1,157 @@
+10
+
+dir
+9769
+http://192.168.0.25/svn/network/oecp-parent/oecp-platform/src/main/java/oecp/platform
+http://192.168.0.25/svn/network
+
+
+
+2014-05-04T05:56:17.390625Z
+9762
+liyanchao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6ced2a52-7b10-d444-a89e-05ef45422b1d
+
+app
+dir
+
+otask
+dir
+
+datapermission
+dir
+
+message
+dir
+
+bcevent
+dir
+
+org
+dir
+
+enums
+dir
+
+bcfunction
+dir
+
+bcinfo
+dir
+
+auth
+dir
+
+chart
+dir
+
+bcservice
+dir
+
+query
+dir
+
+rpt
+dir
+
+warning
+dir
+
+uiview
+dir
+
+esb
+dir
+
+ref
+dir
+
+setting
+dir
+
+web
+dir
+
+file
+dir
+
+billrelation
+dir
+
+notice
+dir
+
+log
+dir
+
+event
+dir
+
+mail
+dir
+
+billsn
+dir
+
+biztype
+dir
+
+canlendar
+dir
+
+permission
+dir
+
+ed
+dir
+
+print
+dir
+
+portal
+dir
+
+role
+dir
+
+bcdepend
+dir
+
+rolefunction
+dir
+
+userdesktop
+dir
+
+api
+dir
+
+base
+dir
+
+billflow
+dir
+
+maindata
+dir
+
+bpm
+dir
+
+user
+dir
+

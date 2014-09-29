@@ -1,0 +1,98 @@
+<!DOCTYPE form-validation PUBLIC
+     "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN"
+     "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+     
+<form-validation>
+<global>
+
+      <validator name="checkFunCode"
+            classname="oecp.platform.bcfunction.service.FunctionValidator"
+               method="checkFuncCode"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.checkFunCode">
+      </validator>                  
+      <validator name="funUsed"
+            classname="oecp.platform.bcfunction.service.FunctionValidator"
+               method="isfunctionUsed"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.funUsed">
+      </validator>                  
+      <validator name="funHasChild"
+            classname="oecp.platform.bcfunction.service.FunctionValidator"
+               method="isfunctionHasChild"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.funHasChild">
+      </validator> 
+      <validator name="funUIsUsed"
+            classname="oecp.platform.bcfunction.service.FunctionValidator"
+               method="isUIsUsed"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.funUIsUsed">
+      </validator>                     
+</global>
+
+   <formset>
+      <form name="updateFunction">
+         <field property="code"  depends="required,minlength,checkFunCode">
+      	   	<arg0 key="fun.code"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>6</var-value>   
+            </var>  
+         </field>    
+         <field  property="name" depends="required,minlength">
+      	   	<arg key="fun.name"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>
+                <var-name>minlength</var-name>
+                <var-value>2</var-value>   
+            </var>  
+         </field>
+      </form>
+      <form name="addFunction">
+         <field property="code"  depends="required,minlength">
+      	   	<arg0 key="fun.code"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>6</var-value>   
+            </var>  
+         </field>    
+         <field  property="name" depends="required,minlength">
+      	   	<arg key="fun.name"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>
+                <var-name>minlength</var-name>
+                <var-value>3</var-value>   
+            </var>  
+         </field>
+      </form>
+      <form name="deleteFunction">
+         <field property="id" depends="funUsed,funHasChild">
+         	<arg0 key="不允许删除！" />
+         </field>
+      </form>
+      <form name="deleteUIs">
+         <field property="ids" depends="funUIsUsed">
+         	<arg0 key="不允许删除！" />
+         </field>
+      </form>
+   </formset>   
+</form-validation>

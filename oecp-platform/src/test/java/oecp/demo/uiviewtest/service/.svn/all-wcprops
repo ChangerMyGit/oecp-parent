@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/9455/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service
+END
+BillCreaterFromPreCheckImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/network/!svn/ver/9455/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service/BillCreaterFromPreCheckImpl.java
+END
+BillCreaterFromPreImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9455/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service/BillCreaterFromPreImpl.java
+END
+BillCreaterToNextImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/9455/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service/BillCreaterToNextImpl.java
+END
+UiviewtestServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/8665/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service/UiviewtestServices.java
+END
+BillPreWriteBackerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9455/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service/BillPreWriteBackerImpl.java
+END
+UiviewtestServicesImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9455/oecp-parent/oecp-platform/src/test/java/oecp/demo/uiviewtest/service/UiviewtestServicesImpl.java
+END

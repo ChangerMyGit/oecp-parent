@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/network/!svn/ver/9387/oecp-parent/oecp-util/src/main/java/oecp/framework/util/image
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9349/oecp-parent/oecp-util/src/main/java/oecp/framework/util/image/ImageUtils.java
+END
+AverageImageScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9387/oecp-parent/oecp-util/src/main/java/oecp/framework/util/image/AverageImageScale.java
+END
+MagickImageScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/9349/oecp-parent/oecp-util/src/main/java/oecp/framework/util/image/MagickImageScale.java
+END
+ImageScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9387/oecp-parent/oecp-util/src/main/java/oecp/framework/util/image/ImageScale.java
+END
+ImageScaleImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/9387/oecp-parent/oecp-util/src/main/java/oecp/framework/util/image/ImageScaleImpl.java
+END

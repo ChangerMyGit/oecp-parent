@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/network/!svn/ver/9496/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo
+END
+BizProActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/BizProActivity.java
+END
+MyAgentUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/8936/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/MyAgentUser.java
+END
+DecisionCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/DecisionCondition.java
+END
+VirProcessInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/VirProcessInstance.java
+END
+OrgProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/OrgProcess.java
+END
+TaskEo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9402/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/TaskEo.java
+END
+HistoryTaskEo.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/8936/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/HistoryTaskEo.java
+END
+ProDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/9496/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/ProDefinition.java
+END
+VirProDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/7790/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/VirProDefinition.java
+END
+CandidateUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/8975/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/CandidateUser.java
+END
+ProActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/ProActivity.java
+END
+BizConfigEo.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/BizConfigEo.java
+END
+BizProDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/BizProDefinition.java
+END
+VirProActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/9407/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/eo/VirProActivity.java
+END

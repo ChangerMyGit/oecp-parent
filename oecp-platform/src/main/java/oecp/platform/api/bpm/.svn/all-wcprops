@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/network/!svn/ver/9485/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/bpm
+END
+ExecutionAPIServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/9485/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/bpm/ExecutionAPIServiceImpl.java
+END
+ExecutionResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/7657/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/bpm/ExecutionResult.java
+END
+TaskState.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/7657/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/bpm/TaskState.java
+END
+ProcessInstanceState.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/7657/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/bpm/ProcessInstanceState.java
+END
+ExecutionAPIService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9485/oecp-parent/oecp-platform/src/main/java/oecp/platform/api/bpm/ExecutionAPIService.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/9766/oecp-parent/oecp-platform/src/main/webapp/js/component/bulletin
+END
+test.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/9759/oecp-parent/oecp-platform/src/main/webapp/js/component/bulletin/test.html
+END
+BulletinView.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/9729/oecp-parent/oecp-platform/src/main/webapp/js/component/bulletin/BulletinView.js
+END
+NoticeView.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9766/oecp-parent/oecp-platform/src/main/webapp/js/component/bulletin/NoticeView.js
+END
+NoticeConfigWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/9757/oecp-parent/oecp-platform/src/main/webapp/js/component/bulletin/NoticeConfigWindow.js
+END
+NoticePanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/network/!svn/ver/9757/oecp-parent/oecp-platform/src/main/webapp/js/component/bulletin/NoticePanel.js
+END

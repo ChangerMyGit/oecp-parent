@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+ 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Combo测试页</title>
+	<link rel="stylesheet" type="text/css"	href="../../../extjs/resources/css/ext-all.css" />
+	<link rel="stylesheet" type="text/css"	href="../../../extjs/ux/css/ux-all.css" />
+	<script type="text/javascript" src="../../../extjs/adapter/ext/ext-base-debug.js"></script>
+	<script type="text/javascript" src="../../../extjs/ext-all-debug.js"></script>
+	<script type="text/javascript" src="../../../extjs/ux/ux-all-debug.js"></script>
+	<script type="text/javascript" src="../../../extjs/ext-lang-zh_CN.js"></script>
+	<script type="text/javascript" src="../../../js/context-path.jsp"></script>
+	<script type="text/javascript" src="../../../js/App.js"></script>
+	<script type="text/javascript" src="../GridRefField.js"></script>
+	<script type="text/javascript" src="../Adapter.js"></script>
+	<script type="text/javascript" src="BizTypeCombo.js"></script>
+	<script type="text/javascript" src="BCCombo.js"></script>
+	<script type="text/javascript" src="EnumsCombo.js"></script>
+	<script type="text/javascript">
+	Ext.onReady(function() {
+		// App.init();
+		// Ext.QuickTips.init();
+		// var panel = new OECP.ui.combobox.BizTypeCombo({functionCode : 'SYS_0016'});
+		var panel = new OECP.ui.combobox.EnumsCombo({
+			className:'oecp.bcbase.enums.BillState',
+			exclude:['EDIT','BPMING','EFFECTIVE','TEMPORARY']
+		});
+		panel.render(document.body);
+		
+		var combo =  new Ext.ux.form.LovCombo({
+					width:300
+					,hideOnSelect:false
+					,maxHeight:200
+					,store:new Ext.data.SimpleStore({
+						fields:[{name:'id',type:'int'}, 'privGroup']
+						,data:[[1, 'Personnel']	,[11, 'Finance'],[2, 'Management'],[22, 'Production'],[3, 'Users']]
+					})
+					,triggerAction:'all'
+					,valueField:'id'
+					,displayField:'privGroup'
+					,mode:'local'
+				});
+		combo.render(document.body);
+		combo.on('select',function(c,r,i){
+			alert(r.get(this.checkField)+'   id:'+r.get('id'));
+		});
+	});
+	</script>
+	
+  </head>
+  
+  <body>
+    
+  </body>
+</html>
+<!--	<script type="text/javascript" src="test.js"></script>-->

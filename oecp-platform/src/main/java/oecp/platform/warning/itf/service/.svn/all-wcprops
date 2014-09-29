@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/9310/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/itf/service
+END
+WarningItfImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/network/!svn/ver/9045/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/itf/service/WarningItfImpl.java
+END
+TimeOutTaskItfImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/network/!svn/ver/9310/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/itf/service/TimeOutTaskItfImpl.java
+END

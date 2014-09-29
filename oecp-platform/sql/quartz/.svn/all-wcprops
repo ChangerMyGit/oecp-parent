@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz
+END
+tables_sapdb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_sapdb.sql
+END
+tables_informix.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_informix.sql
+END
+tables_postgres7.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_postgres7.sql
+END
+tables_mysql_innodb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_mysql_innodb.sql
+END
+tables_derby_previous.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_derby_previous.sql
+END
+tables_oracle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_oracle.sql
+END
+tables_mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_mysql.sql
+END
+tables_derby.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_derby.sql
+END
+tables_db2_v72.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_db2_v72.sql
+END
+tables_postgres.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_postgres.sql
+END
+tables_db2.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_db2.sql
+END
+tables_h2.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_h2.sql
+END
+tables_solid.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_solid.sql
+END
+tables_hsqldb_old.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_hsqldb_old.sql
+END
+tables_hsqldb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_hsqldb.sql
+END
+tables_cloudscape.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_cloudscape.sql
+END
+tables_pointbase.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_pointbase.sql
+END
+tables_db2_v8.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_db2_v8.sql
+END
+tables_firebird.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_firebird.sql
+END
+tables_sqlServer.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_sqlServer.sql
+END
+tables_sybase.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/sql/quartz/tables_sybase.sql
+END

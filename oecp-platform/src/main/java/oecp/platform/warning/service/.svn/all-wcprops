@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/service
+END
+WarnManageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9187/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/service/WarnManageService.java
+END
+WarnManageServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/service/WarnManageServiceImpl.java
+END
+WarningEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9044/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/service/WarningEngine.java
+END
+WarningEngineImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9341/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/service/WarningEngineImpl.java
+END

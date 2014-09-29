@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9482/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/spring/context
+END
+BCDeploy.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9468/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/spring/context/BCDeploy.java
+END
+OECPClassLoaderHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/network/!svn/ver/9911/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/spring/context/OECPClassLoaderHelper.java
+END
+BCDeployConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9482/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/spring/context/BCDeployConfig.java
+END
+OECPSpringContextLoaderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/java/oecp/platform/web/spring/context/OECPSpringContextLoaderListener.java
+END

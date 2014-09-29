@@ -1,0 +1,125 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+	<context:component-scan base-package="oecp.framework,oecp.**.dao, oecp.**.service, oecp.**.api, oecp.**.web">
+	</context:component-scan>
+
+	<!-- XAPool配置，内部包含了�?��XA数据源，对应平台数据�?-->
+	<bean id="platformDS" class="org.enhydra.jdbc.pool.StandardXAPoolDataSource"
+		destroy-method="shutdown">
+		<property name="dataSource">
+			<!-- 内部XA数据�?-->
+			<bean class="org.enhydra.jdbc.standard.StandardXADataSource"
+				destroy-method="shutdown">
+				<property name="transactionManager" ref="jotm" />
+				<property name="driverName" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url"
+					value="jdbc:oracle:thin:@192.168.0.218:1521:emp" />
+				<property name="user" value="oecp" />
+				<property name="password" value="oecp" />
+			</bean>
+		</property>
+		<property name="user" value="oecp" />
+		<property name="password" value="oecp" />
+		<property name="minSize" value="5" />
+		<property name="maxSize" value="40" />
+	</bean>
+
+
+	<bean id="platformSessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="platformDS" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect	</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">none</prop>
+				<prop key="hibernate.cache.use_query_cache">false</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+
+				<prop key="hibernate.cache.provider_class">com.googlecode.hibernate.memcached.MemcachedCacheProvider</prop>
+				<prop key="hibernate.memcached.servers">192.168.0.29:11211</prop>
+				<prop key="hibernate.memcached.cacheTimeSeconds">300</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>jbpm.repository.hbm.xml</value>
+				<value>jbpm.execution.hbm.xml</value>
+				<value>jbpm.history.hbm.xml</value>
+				<value>jbpm.task.hbm.xml</value>
+				<value>jbpm.identity.hbm.xml</value>
+			</list>
+		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>oecp.**.eo</value>
+			</list>
+		</property>
+		<property name="lobHandler" ref="lobHandler" />
+	</bean>
+
+
+	<bean id="nativeJdbcExtractor"
+		class="org.springframework.jdbc.support.nativejdbc.CommonsDbcpNativeJdbcExtractor"
+		lazy-init="true" />
+
+	<bean id="lobHandler" class="org.springframework.jdbc.support.lob.OracleLobHandler"
+		lazy-init="true">
+		<property name="nativeJdbcExtractor">
+			<ref local="nativeJdbcExtractor" />
+		</property>
+	</bean>
+
+	<bean id="jbpmSpringHelper" class="org.jbpm.pvm.internal.processengine.SpringHelper">
+		<property name="hibernateSessionFactory">
+			<ref local="platformSessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="processEngine" factory-bean="jbpmSpringHelper"
+		factory-method="createProcessEngine" />
+	<bean id="repositoryService" factory-bean="processEngine"
+		factory-method="getRepositoryService" />
+	<bean id="executionService" factory-bean="processEngine"
+		factory-method="getExecutionService" />
+	<bean id="taskService" factory-bean="processEngine"
+		factory-method="getTaskService" />
+	<bean id="historyService" factory-bean="processEngine"
+		factory-method="getHistoryService" />
+	<bean id="identityService" factory-bean="processEngine"
+		factory-method="getIdentityService" />
+
+	<!-- JOTM本地实例 -->
+	<bean id="jotm" class="org.springframework.transaction.jta.JotmFactoryBean" >
+		<property name="defaultTimeout" value="600"></property>
+	</bean>
+
+	<!-- JTA事务管理�?-->
+	<bean id="txManager"
+		class="org.springframework.transaction.jta.JtaTransactionManager">
+		<!-- 指定userTransaction属�? -->
+		<property name="userTransaction" ref="jotm" />
+	</bean>
+	<!-- 业务类中的@Transaction注解进行驱动 -->
+	<tx:annotation-driven transaction-manager="txManager"
+		proxy-target-class="true" />
+	<!--begin 事件预警配置 -->	
+	<bean id="warnEventInterceptor" class="oecp.platform.warning.interceptor.WarnEventInterceptor" >
+		<property name="warningEngine">
+			<ref bean="warningEngine"/>
+		</property>
+	</bean>  
+    <aop:config>  
+        <aop:aspect ref="warnEventInterceptor">  
+            <aop:pointcut id="eventEnginee"  
+                expression="execution(* oecp.platform.event.service.EventEngine.fireEvent(..)) and args(source,eventName,org,objects)" />  
+            <aop:after pointcut-ref="eventEnginee" method="doEventInterceptor(java.lang.Object,java.lang.String,oecp.platform.org.eo.Organization,java.lang.Object[])" arg-names="source,eventName,org,objects"/>  
+        </aop:aspect>  
+    </aop:config> 	
+	<!--end 事件预警配置 -->
+</beans>

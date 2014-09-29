@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/9361/oecp-parent/oecp-framework/src/main/java/oecp/framework/quartz/service
+END
+TimerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9341/oecp-parent/oecp-framework/src/main/java/oecp/framework/quartz/service/TimerService.java
+END
+TimerServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/network/!svn/ver/9361/oecp-parent/oecp-framework/src/main/java/oecp/framework/quartz/service/TimerServiceImpl.java
+END

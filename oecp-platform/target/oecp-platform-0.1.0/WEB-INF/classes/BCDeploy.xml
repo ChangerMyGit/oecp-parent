@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<BusinessComponents>
+       <bc>
+			<name>newdemo</name>
+			<webResouceRoot>D:\code\javaEEworkspace\oecp-newdemo\webapp</webResouceRoot>
+			<reloadWebResouces>true</reloadWebResouces>
+			<classDirs>
+				<dir>D:\code\javaEEworkspace\oecp-newdemo\webapp\WEB-INF\classes</dir>
+			</classDirs>
+			<jarDirs>
+				<dir>D:\code\javaEEworkspace\oecp-newdemo\webapp\WEB-INF\lib</dir>
+			</jarDirs>
+		</bc>
+<!-- 		
+        <bc>
+		   <name>purchase</name>
+		   <webResouceRoot>D:\Workspace\oecp-purchase\webapp</webResouceRoot>
+		   <reloadWebResouces>true</reloadWebResouces>
+		   <classDirs>
+		       <dir>D:\Workspace\oecp-purchase\webapp\WEB-INF\classes</dir>
+		   </classDirs>
+		   <jarDirs>
+		       <dir>D:\Workspace\oecp-purchase\webapp\WEB-INF\lib</dir>
+		   </jarDirs>
+		</bc> 
+-->
+		<bc>
+		    <name>purchasements</name>
+		    <webResouceRoot>D:\Workspace\oecp-purchasements\webapp</webResouceRoot>
+		    <reloadWebResouces>true</reloadWebResouces>
+		   <classDirs>
+		       <dir>D:\Workspace\oecp-purchasements\webapp\WEB-INF\classes</dir>
+		   </classDirs>	
+		   <jarDirs>
+		       <dir>D:\Workspace\oecp-purchasements\webapp\WEB-INF\lib</dir>
+		   </jarDirs>	    
+		</bc>
+	</BusinessComponents>
+</config>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/data
+END
+CalendarMappings.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/data/CalendarMappings.js
+END
+CalendarRecord.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/data/CalendarRecord.js
+END
+EventStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/data/EventStore.js
+END
+EventMappings.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/data/EventMappings.js
+END
+EventRecord.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/9695/oecp-parent/oecp-platform/src/main/webapp/extensible/src/calendar/data/EventRecord.js
+END

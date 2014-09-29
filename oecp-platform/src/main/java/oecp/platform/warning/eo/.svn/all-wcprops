@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/eo
+END
+SendWarn.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/network/!svn/ver/9440/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/eo/SendWarn.java
+END
+WarnItfContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9044/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/eo/WarnItfContent.java
+END
+Warn.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/9081/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/eo/Warn.java
+END
+TimerWarn.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/eo/TimerWarn.java
+END
+EventWarn.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/9038/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/eo/EventWarn.java
+END

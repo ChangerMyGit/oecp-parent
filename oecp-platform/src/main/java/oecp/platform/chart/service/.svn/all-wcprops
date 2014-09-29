@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/network/!svn/ver/9136/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service
+END
+SimpleBar_XChartFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service/SimpleBar_XChartFactory.java
+END
+SimpleBar_YChartFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service/SimpleBar_YChartFactory.java
+END
+SimplePieChartFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service/SimplePieChartFactory.java
+END
+AbstractSimpleChartFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/network/!svn/ver/9136/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service/AbstractSimpleChartFactory.java
+END
+ChartFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service/ChartFactory.java
+END
+SimpleLineChartFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/service/SimpleLineChartFactory.java
+END

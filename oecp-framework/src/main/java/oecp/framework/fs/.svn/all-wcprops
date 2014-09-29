@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/network/!svn/ver/9386/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs
+END
+UploadedFileServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/network/!svn/ver/9314/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/UploadedFileServlet.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/9271/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/ImageUtils.java
+END
+MagickImageScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/9317/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/MagickImageScale.java
+END
+StrutsUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/9271/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/StrutsUpload.java
+END
+FSType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/9271/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/FSType.java
+END
+Uploader.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9354/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/Uploader.java
+END
+ImageScaleImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/network/!svn/ver/9358/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/ImageScaleImpl.java
+END
+FileExtInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/network/!svn/ver/9271/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/FileExtInfo.java
+END
+FsInitParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/network/!svn/ver/9275/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/FsInitParam.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9386/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/FileUtil.java
+END
+ImageUploader.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9290/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/ImageUploader.java
+END
+FileProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/FileProperty.java
+END
+StorageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/network/!svn/ver/9362/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/StorageService.java
+END
+AverageImageScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/9358/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/AverageImageScale.java
+END
+ImageProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/ImageProperty.java
+END
+ImageScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/9358/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/ImageScale.java
+END
+StrutsUploads.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9275/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/StrutsUploads.java
+END
+Watermark.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/9271/oecp-parent/oecp-framework/src/main/java/oecp/framework/fs/Watermark.java
+END

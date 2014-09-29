@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+	<tlib-version>1.2</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>do</short-name>
+	<uri>/do-tags</uri>
+	<display-name>自定义标签</display-name>
+
+	<tag>
+		<name>pages</name>
+		<tag-class>oecp.framework.page.PageTag</tag-class>
+		<body-content>jsp</body-content>
+		<description>分页标签，@author:yongtree</description>
+		<attribute>
+			<name>pageNo</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>total</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>styleClass</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>分页标签的样式,不配置此项将采用默认的样式</description>
+		</attribute>
+		<attribute>
+			<name>theme</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>分页的主题，现支持number|text两种主题</description>
+		</attribute>
+		<attribute>
+			<name>url</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>分页提交的路径，默认不用配置该项，自动获取系统访问路径。</description>
+		</attribute>
+		<attribute>
+			<name>urlType</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>
+				url的类型，现在支持两种url类型，第一种默认的url，这种情况不需要设置；
+				第二种情况是目录型的url，比如http://blog.csdn.net/yongtree/page/2，此种情况请配置成urlType="dir"。如果用动态查询，建议最好不采用此种方式，并且该方式需要结合URLRewrite来实现
+			</description>
+		</attribute>
+	</tag>
+</taglib>
+

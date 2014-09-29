@@ -1,0 +1,216 @@
+<#setting number_format="##000"/>
+<#-- 判断是否是�?辑�?或数字，因为逻辑值或数字作为属�?时不�?��加单引号 -->
+<#function is_booleanORnumber comp attrname>
+	<#local _class = comp.getFieldType(attrname).getSimpleName() />
+	<#if _class == "Integer" || _class == "Boolean" || _class == "Double" || _class == "Long">
+		<#return true />
+	<#else>
+	<#local numfields = ["allowBlank","minLength","maxLength","decimalPrecision","activeTab","readOnly","defaultReadOnly","flex"] />
+		<#if (numfields?seq_index_of(attrname) > -1) >
+			<#return true />
+		</#if>
+		<#return false />
+	</#if>
+</#function>
+<#function is_parentgrid parent>
+	<#if parent != "0" && parent.type =='Grid'>
+		<#return true />
+	<#else>
+		<#return false />
+	</#if>
+</#function>
+
+<#-- 输出控件代码。根据控件的类型不同调用不同类型控件的代码输出�? -->
+<#macro writeComp comp parent="0">
+<@writeBlank />{
+<#assign level=level+1 />
+<#if comp.type=='Panel'>
+	<@writePanel comp,parent/>
+<#elseif comp.type=='Grid'>
+	<@writeGrid comp,parent/>
+<#elseif comp.type=='Tab'>
+	<@writeTab comp,parent/>
+<#elseif comp.type=='Field'>
+	<@writeField comp,parent/>
+<#elseif comp.type=='Chart'>
+	<@writeChart comp,parent/>
+</#if>
+<#assign level=level-1 />
+<@writeBlank />}
+</#macro>
+<#-- 输出控件的属性，排除特定字段 -->
+<#macro listAttrsExps comp exps=[]>
+<#local finalexps = ["id","type","item","idx","children","layout","parent"] />
+<#local exps = exps + finalexps />
+<#list comp.fieldNames as name>
+<#if (exps?seq_index_of(name) == -1) && comp.getValue(name)?? && ""!=(comp.getValue(name)?string)>
+<@writeBlank />oecp-platform : <#if is_booleanORnumber(comp,name)>${comp.getValue(name)?string}<#else>'${comp.getValue(name)?string}'</#if>,
+</#if>
+</#list>
+</#macro>
+<#-- 输出控件的属性，指定输出字段 -->
+<#macro listAttrsImps comp imps=[]>
+<#list comp.fieldNames as name>
+<#if (imps?seq_index_of(name) != -1) && comp.getValue(name)?? && ""!=(comp.getValue(name)?string) >
+<@writeBlank />oecp-platform : <#if is_booleanORnumber(comp,name)>${comp.getValue(name)?string}<#else>'${comp.getValue(name)?string}'</#if>,
+</#if>
+</#list>
+</#macro>
+<#-- ★★★★  输出面板 Panel ★★★★  -->
+<#macro writePanel comp parent="0">
+<#-- 循环组件内的属�?，排除type、item、idx、children和layout -->
+<@listAttrsExps comp=comp exps=["cols","layout","layoutConfig"] />
+<#if comp.children??>
+<@writeBlank />items :[
+<#-- 循环子控�?-->
+<#list comp.children as item>
+<@writeComp item comp /><#if item_index != (comp.children?size - 1)><@writeBlank/>,<#else></#if>
+</#list>
+<@writeBlank />],
+</#if>
+<@writeBlank />layout : '${comp.getValue("layout")?default("table")}',
+<@writeBlank />layoutConfig: ${comp.getValue("layoutConfig")?default('{columns:'+comp.cols+'}')},
+<@writeBlank />frame : true,
+<@writeBlank />xtype : <#if comp.cancommit>'form'<#else>'panel'</#if>
+</#macro>
+
+<#-- ★★★★  输出表格 Grid ★★★★  -->
+<#macro writeGrid comp parent="0">
+<@listAttrsExps comp=comp exps=["store"]/>
+<@writeBlank />store : Ext.isFunction(me.getBodyStoreByName)?me.getBodyStoreByName('${comp.getValue("eoname")?default ("")}'):{
+<#if comp.children??>
+<@writeBlank />fields: [
+<#list comp.children as item><#-- 输出默认的store  -->
+<@writeStore item /><#if item_index != (comp.children?size - 1)><@writeBlank/>,<#else></#if>
+<@writeBlank />
+</#list>],
+xtype: 'jsonstore'
+</#if><@writeBlank />},
+<#if comp.getValue("showSM")?? && comp.getValue("showSM")=="true">
+<@writeBlank />sm : new Ext.grid.CheckboxSelectionModel(<#if comp.getValue("singleSelect")?? && comp.getValue("singleSelect")?string=="true">{singleSelect:true}</#if>),
+<@writeBlank />showSM : true,
+<#else>
+<@writeBlank />selModel : new Ext.grid.RowSelectionModel(<#if comp.getValue("singleSelect")?? && comp.getValue("singleSelect")?string=="true">{singleSelect:true}</#if>),
+<@writeBlank />showSM : false,
+</#if>
+<@writeBlank />columnLines: true,
+<@writeBlank />tbar: {plugins:new Ext.ux.ToolbarKeyMap()},
+<@writeBlank />view: new Ext.ux.grid.LockingGridView(),
+<#if comp.children??>
+<@writeBlank />colModel : new Ext.ux.grid.LockingColumnModel([
+<#-- 顺序�?-->
+<@writeBlank /><@writeBlank />new Ext.grid.RowNumberer(),
+<#-- 循环子控�?-->
+<#list comp.children as item>
+<@writeComp item comp /><#if item_index != (comp.children?size - 1)><@writeBlank/>,<#else></#if>
+</#list>
+<@writeBlank />]),
+</#if>
+<@writeBlank />plugins : <#if comp.getValue("issummary")?? && comp.getValue("issummary")?string=="true">new Ext.ux.grid.GridSummary()<#else>undefined</#if>,
+<@writeBlank />xtype : <#if comp.getValue("editable")?? && comp.getValue("editable")?string=="true">'oecpeditgrid'<#else>'oecpgrid'</#if>
+</#macro>
+
+<#-- ★★★★  输出标签�?Tab ★★★★   -->
+<#macro writeTab comp parent="0">
+<@listAttrsExps comp />
+<#if comp.children??>
+<@writeBlank />items :[
+<#-- 循环子控�?-->
+<#list comp.children as item>
+<@writeComp item comp /><#if item_index != (comp.children?size - 1)><@writeBlank/>,<#else></#if>
+</#list>
+<@writeBlank />],
+</#if>
+<@writeBlank />default : {frame:true},
+<@writeBlank />layoutConfig: ${comp.getValue("layoutConfig")?default('{deferredRender:true}')},
+<@writeBlank />xtype : 'tabpanel'
+</#macro>
+
+<#-- ★★★★   输出字段 Field ★★★★   -->
+<#macro writeField comp parent="0">
+<#if is_parentgrid(parent)>
+<#-- 在Grid上时 -->
+<@listAttrsExps comp=comp exps=["title","colspan","rowspan","cols","editorcfg","editor","readOnly","defaultReadOnly"] />
+<#if comp.getValue("editor")?? && comp.getValue("editor")?string == "checkbox">
+<@writeBlank />xtype:'checkcolumn',
+<#else>
+<#if comp.getValue("editor")?? && comp.getValue("editor")?string == "datefield">
+<@writeBlank />renderer: Ext.util.Format.dateRenderer('Y-m-d'),
+</#if>
+<#if comp.getValue("editor")?string == "combo"><#-- combo比较特殊，name使用hiddenName,combo在列表中�?��renderer，否则不显示displayvalue -->
+<@writeBlank />hiddenName : '${comp.getValue("name")}',
+				renderer : function(value, metaData, record, rowIndex, colIndex, store) { 
+					var fname = this.name;
+					var editor = this.editor?this.editor:this.scope.editor;
+					if(!editor)
+						return value;
+						
+					var cmb = editor.field;
+					if(cmb.setValueEx){
+						var varg = fname.split('.');
+						varg[varg.length - 1] = cmb.displayField;
+						cmb.setValueEx.call(cmb,value, record.get(varg.join(".")));
+					}
+					
+					var r = cmb.findRecord.call(cmb,cmb.valueField,value);
+			        return r?r.data[cmb.displayField] : ''; 
+			    },
+</#if>
+<@writeBlank />editor : new Ext.grid.GridEditor({field:{
+<#assign level=level+1 />
+<@listAttrsImps comp=comp imps=["allowBlank","minLength","maxLength","decimalPrecision","title","readOnly","defaultReadOnly"] />
+<#-- <#if comp.getValue("editor")?string == "combo"><@writeBlank />hiddenName : '${comp.getValue("name")}',name : '${comp.getValue("name")}',</#if>combo比较特殊，name使用hiddenName// 2014�?�?2�?slx 此处注掉，当combo在grid上时，不�?��再grideditor中设置hiddenname,否则会被外部的form获取到�?成多余的提交 -->
+<@writeXtype comp />
+<#assign level=level-1 />
+}}),
+</#if>
+<#if comp.getValue("summarytype")??><@writeBlank />summaryType: '${comp.getValue("summarytype")}',</#if><#-- 合计方式 -->
+<@writeBlank />header : '${comp.title}'
+<#else>
+<#-- 在Panel上时 -->
+<@writeBlank />colspan : ${comp.getValue("colspan")},
+<@writeBlank />rowspan : ${comp.getValue("rowspan")},
+<@writeBlank />layout : 'form',
+<#-- <@writeBlank />frame : true, -->
+<@writeBlank />items : [{
+<#assign level=level+1 />
+<@listAttrsExps comp=comp exps=["title","colspan","rowspan","editorcfg"] />
+<@writeBlank /><@writeXtype comp />,
+<#if comp.getValue("editor")?string == "combo"><#-- combo比较特殊，name使用hiddenName -->
+<@writeBlank />hiddenName : '${comp.getValue("name")}',
+</#if>
+<@writeBlank />fieldLabel : '${comp.title}'
+<#assign level=level-1 />
+<@writeBlank />}]
+</#if>
+</#macro>
+<#-- ★★★★  输出Store ★★★★   -->
+<#macro writeStore comp >
+<#if (!comp.getValue("editor")??) || comp.getValue("editor")?string == "textfield">
+'${comp.getValue("dataIndex")}'
+<#else><#-- 按照editor的�?输出对应的数据类型type -->
+{name : '${comp.getValue("dataIndex")}',type:<#if comp.getValue("editor")?string == "numberfield">'number'<#else><#if comp.getValue("editor")?string == "checkbox">'boolean'<#else><#if comp.getValue("editor")?string == "datefield">'date'<#else>'string'</#if></#if></#if>}
+</#if>
+<@writeBlank />
+</#macro>
+<#-- ★★★★  输出图形 Chart ★★★★   -->
+<#macro writeChart comp parent="0">
+<@listAttrsExps comp />
+<#if comp.children??>
+</#if>
+<@writeBlank />xtype : 'oecpchart'
+</#macro>
+<#-- 输出field的xtype属�?。如果editorcfg�?xtype'�?��时，不输出editor属�?；否则以editor作为xtype并连接editorcfg�?��输出�? -->
+<#macro writeXtype comp >
+<#if comp.getValue("editorcfg")?? && comp.getValue("editorcfg")?string?trim!="">
+<#local editorcfg = comp.getValue("editorcfg")?string>
+<#if editorcfg?starts_with("xtype")>${editorcfg}<#else>xtype:'${comp.getValue("editor")?default("textfield")}',${editorcfg}</#if>
+<#else>
+xtype:'${comp.getValue("editor")?default("textfield")}'<#if comp.getValue("editor")?? && comp.getValue("editor")?string=="checkbox">,inputValue:'true'</#if><#-- checkbox必须设置返回值，否则将默认返回on和off -->
+</#if>
+</#macro>
+<#-- 输出缩进空格 -->
+<#macro writeBlank ><#list 0..level as idx ><#if (idx_index > 1)>	</#if></#list></#macro>
+<#assign level= 1 />
+<#-- 真正的调用输出控�?-->
+<@writeComp comp=vo/>

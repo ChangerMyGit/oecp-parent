@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/network/!svn/ver/9510/oecp-parent/oecp-platform/src/main/webapp/js/component/task
+END
+test.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/webapp/js/component/task/test.html
+END
+TimerBasePanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9104/oecp-parent/oecp-platform/src/main/webapp/js/component/task/TimerBasePanel.js
+END
+TaskLogWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/9346/oecp-parent/oecp-platform/src/main/webapp/js/component/task/TaskLogWindow.js
+END
+AddGroupWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/webapp/js/component/task/AddGroupWindow.js
+END
+TaskView.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/9510/oecp-parent/oecp-platform/src/main/webapp/js/component/task/TaskView.js
+END
+TaskConfigWindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/webapp/js/component/task/TaskConfigWindow.js
+END
+TimerPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/webapp/js/component/task/TimerPanel.js
+END
+TaskPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9098/oecp-parent/oecp-platform/src/main/webapp/js/component/task/TaskPanel.js
+END

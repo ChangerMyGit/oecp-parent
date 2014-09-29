@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/vo
+END
+PieChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/vo/PieChart.java
+END
+AbstractChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/vo/AbstractChart.java
+END
+BarChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/vo/BarChart.java
+END
+LineChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/network/!svn/ver/8969/oecp-parent/oecp-platform/src/main/java/oecp/platform/chart/vo/LineChart.java
+END

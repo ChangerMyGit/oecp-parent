@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/network/!svn/ver/9604/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service
+END
+FunctionUIService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionUIService.java
+END
+FunctionUIServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionUIServiceImpl.java
+END
+UIElementService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/UIElementService.java
+END
+FunctionFieldService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionFieldService.java
+END
+FunctionQSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/9604/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionQSService.java
+END
+UIElementServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/UIElementServiceImpl.java
+END
+BcFunctionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/7757/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/BcFunctionService.java
+END
+FunctionValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/network/!svn/ver/8032/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionValidator.java
+END
+FunctionFieldServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/network/!svn/ver/7688/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionFieldServiceImpl.java
+END
+FunctionQSServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/network/!svn/ver/9604/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/FunctionQSServiceImpl.java
+END
+BcFunctionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/network/!svn/ver/7757/oecp-parent/oecp-platform/src/main/java/oecp/platform/bcfunction/service/BcFunctionServiceImpl.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/network/!svn/ver/9567/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/web
+END
+BPMTaskAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/9404/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/web/BPMTaskAction.java
+END
+BPMInstanceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9493/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/web/BPMInstanceAction.java
+END
+BPMDefinitionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9567/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/web/BPMDefinitionAction.java
+END
+BizBPMDefinitionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9274/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/web/BizBPMDefinitionAction.java
+END
+BPMTaskForPersonAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9402/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm/web/BPMTaskForPersonAction.java
+END

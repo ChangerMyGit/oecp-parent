@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data
+END
+Types.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Types.js
+END
+JsonWriter.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/JsonWriter.js
+END
+DataWriter.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/DataWriter.js
+END
+GroupingStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/GroupingStore.js
+END
+Api.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Api.js
+END
+MemoryProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/MemoryProxy.js
+END
+DataProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/DataProxy.js
+END
+DirectProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/DirectProxy.js
+END
+SortTypes.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/SortTypes.js
+END
+DataField.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/DataField.js
+END
+XmlStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/XmlStore.js
+END
+Record.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Record.js
+END
+HttpProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/HttpProxy.js
+END
+XmlReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/XmlReader.js
+END
+JsonStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/JsonStore.js
+END
+DirectStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/DirectStore.js
+END
+Request.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Request.js
+END
+ArrayStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/ArrayStore.js
+END
+JsonReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/JsonReader.js
+END
+DataReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/DataReader.js
+END
+Store.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Store.js
+END
+XmlWriter.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/XmlWriter.js
+END
+Response.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Response.js
+END
+Tree.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/Tree.js
+END
+ArrayReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/ArrayReader.js
+END
+ScriptTagProxy.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/ScriptTagProxy.js
+END
+StoreMgr.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/network/!svn/ver/7295/oecp-parent/oecp-platform/src/main/webapp/extjs/src/data/StoreMgr.js
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums
+END
+TimerWarnStartFlag.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/network/!svn/ver/9037/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums/TimerWarnStartFlag.java
+END
+WarningType.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/network/!svn/ver/9037/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums/WarningType.java
+END
+TimerWarnDayType.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/network/!svn/ver/9037/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums/TimerWarnDayType.java
+END
+WarnNoticeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/network/!svn/ver/9037/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums/WarnNoticeItem.java
+END
+TimerWarnType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/network/!svn/ver/9077/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums/TimerWarnType.java
+END
+WarnNoticeUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/network/!svn/ver/9037/oecp-parent/oecp-platform/src/main/java/oecp/platform/warning/enums/WarnNoticeUserType.java
+END

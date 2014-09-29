@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<BusinessComponents>
+		<bc>
+			<name>newdemo</name>
+			<webResouceRoot>E:\code\javaEEworkspace\oecp-newdemo\webapp</webResouceRoot>
+			<reloadWebResouces>true</reloadWebResouces>
+			<classDirs>
+				<dir>E:\code\javaEEworkspace\oecp-newdemo\webapp\WEB-INF\classes</dir>
+			</classDirs>
+			<jarDirs>
+				<dir>E:\code\javaEEworkspace\oecp-newdemo\webapp\WEB-INF\lib</dir>
+			</jarDirs>
+		</bc>
+	</BusinessComponents>
+</config>

@@ -1,0 +1,67 @@
+10
+
+dir
+9769
+http://192.168.0.25/svn/network/oecp-parent/oecp-platform/src/main/java/oecp/platform/bpm
+http://192.168.0.25/svn/network
+
+
+
+2014-01-16T00:38:07.218750Z
+9570
+luanyoubo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6ced2a52-7b10-d444-a89e-05ef45422b1d
+
+service
+dir
+
+mail
+dir
+
+eo
+dir
+
+vo
+dir
+
+bizservice
+dir
+
+enums
+dir
+
+eventlistener
+dir
+
+jpdl
+dir
+
+framework
+dir
+
+handler
+dir
+
+util
+dir
+
+web
+dir
+
+command
+dir
+

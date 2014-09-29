@@ -1,0 +1,150 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-lazy-init="true">
+	<context:component-scan base-package="oecp.framework,oecp.**.dao, oecp.**.service, oecp.**.api, oecp.**.web">
+	</context:component-scan>
+
+	<!-- XAPool配置，内部包含了一个XA数据源，对应平台数据库 -->
+	<bean id="platformDS" class="org.enhydra.jdbc.pool.StandardXAPoolDataSource"
+		destroy-method="shutdown">
+		<property name="dataSource">
+			<!-- 内部XA数据源 -->
+			<bean class="org.enhydra.jdbc.standard.StandardXADataSource"
+				destroy-method="shutdown">
+				<property name="transactionManager" ref="jotm" />
+				<property name="driverName" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url"
+					value="jdbc:oracle:thin:@192.168.3.201:1521:OECPERP" />
+				<property name="user" value="oecp_test" />
+				<property name="password" value="tiger" />
+			</bean>
+		</property>
+		<property name="user" value="oecp_test" />
+		<property name="password" value="tiger" />
+		<property name="minSize" value="5" />
+		<property name="maxSize" value="40" />
+	</bean>
+
+
+	<bean id="platformSessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="platformDS" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect
+				</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.cache.use_query_cache">false</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>jbpm.repository.hbm.xml</value>
+				<value>jbpm.execution.hbm.xml</value>
+				<value>jbpm.history.hbm.xml</value>
+				<value>jbpm.task.hbm.xml</value>
+				<value>jbpm.identity.hbm.xml</value>
+			</list>
+		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>oecp.**.eo</value>
+			</list>
+		</property>
+		<property name="lobHandler" ref="lobHandler" />
+	</bean>
+
+
+	<!-- XAPool配置，内部包含了一个XA数据源，对应主数据数据库 -->
+	<bean id="mdDS" class="org.enhydra.jdbc.pool.StandardXAPoolDataSource"
+		destroy-method="shutdown">
+		<property name="dataSource">
+			<!-- 内部XA数据源 -->
+			<bean class="org.enhydra.jdbc.standard.StandardXADataSource"
+				destroy-method="shutdown">
+				<property name="transactionManager" ref="jotm" />
+				<property name="driverName" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url"
+					value="jdbc:oracle:thin:@192.168.3.201:1521:OECPSHOP" />
+				<property name="user" value="scott" />
+				<property name="password" value="tiger" />
+			</bean>
+		</property>
+		<property name="user" value="scott" />
+		<property name="password" value="tiger" />
+		<property name="minSize" value="5" />
+		<property name="maxSize" value="40" />
+	</bean>
+
+	<bean id="mdSessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="mdDS" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect
+				</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+	 			<prop key="hibernate.hbm2ddl.auto">update</prop>  
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.cache.use_query_cache">false</prop>
+			</props>
+		</property>
+		<property name="packagesToScan">
+			<list>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="nativeJdbcExtractor"
+		class="org.springframework.jdbc.support.nativejdbc.CommonsDbcpNativeJdbcExtractor"
+		lazy-init="true" />
+
+	<bean id="lobHandler" class="org.springframework.jdbc.support.lob.OracleLobHandler"
+		lazy-init="true">
+		<property name="nativeJdbcExtractor">
+			<ref local="nativeJdbcExtractor" />
+		</property>
+	</bean>
+
+	<bean id="jbpmSpringHelper" class="org.jbpm.pvm.internal.processengine.SpringHelper">
+		<property name="hibernateSessionFactory">
+			<ref local="platformSessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="processEngine" factory-bean="jbpmSpringHelper"
+		factory-method="createProcessEngine" />
+	<bean id="repositoryService" factory-bean="processEngine"
+		factory-method="getRepositoryService" />
+	<bean id="executionService" factory-bean="processEngine"
+		factory-method="getExecutionService" />
+	<bean id="taskService" factory-bean="processEngine"
+		factory-method="getTaskService" />
+	<bean id="historyService" factory-bean="processEngine"
+		factory-method="getHistoryService" />
+	<bean id="identityService" factory-bean="processEngine"
+		factory-method="getIdentityService" />
+
+	<!-- JOTM本地实例 -->
+	<bean id="jotm" class="org.springframework.transaction.jta.JotmFactoryBean" />
+
+	<!-- JTA事务管理器 -->
+	<bean id="txManager"
+		class="org.springframework.transaction.jta.JtaTransactionManager">
+		<!-- 指定userTransaction属性 -->
+		<property name="userTransaction" ref="jotm" />
+	</bean>
+	<!-- 业务类中的@Transaction注解进行驱动 -->
+	<tx:annotation-driven transaction-manager="txManager"
+		proxy-target-class="true" />
+</beans>

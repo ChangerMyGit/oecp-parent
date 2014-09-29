@@ -1,0 +1,35 @@
+[{
+			text : 'To Do',
+			cls : 'folder',
+			expanded : true,
+			children : [{
+						id : '1',
+						text : 'Go jogging',
+						leaf : true,
+					}, {
+						id : '2',
+						text : 'Take a nap',
+						leaf : true,
+					}, {
+						id : '3',
+						text : 'Climb Everest',
+						leaf : true,
+					}]
+		}, {
+			id : '4',
+			text : 'Grocery List',
+			cls : 'folder',
+			children : [{
+						id : '5',
+						text : 'Bananas',
+						leaf : true,
+					}, {
+						id : '6',
+						text : 'Milk',
+						leaf : true,
+					}, {
+						id : '7',
+						text : 'Cereal',
+						leaf : true,
+					}]
+		}]

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/network/!svn/ver/9911/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap/Attribute.java
+END
+SoapUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap/SoapUtils.java
+END
+ScriptUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/9911/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap/ScriptUtils.java
+END
+ComplexType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap/ComplexType.java
+END
+WSDLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/network/!svn/ver/7331/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap/WSDLUtils.java
+END
+Wsdl2JavaUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/network/!svn/ver/7295/oecp-parent/oecp-framework/src/main/java/oecp/framework/util/soap/Wsdl2JavaUtils.java
+END

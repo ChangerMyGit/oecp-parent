@@ -1,0 +1,58 @@
+<!DOCTYPE form-validation PUBLIC
+     "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN"
+     "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+     
+<form-validation>
+<global>
+
+      <validator name="exist"
+            classname="oecp.platform.bcevent.service.EventValidator"
+               method="valueExist"
+         methodParams="java.lang.Object,
+                       org.apache.commons.validator.ValidatorAction,
+                       org.apache.commons.validator.Field,
+                       org.springframework.validation.Errors,
+                       oecp.framework.dao.DAO"
+                  msg="errors.exist">
+      </validator>
+</global>
+
+   <formset>
+      <form name="update">
+         <field property="code"  depends="required,minlength,exist">
+      	   	<arg0 key="event.code"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>4</var-value>   
+            </var>  
+         </field>    
+         <field  property="name" depends="required,minlength,exist">
+      	   	<arg key="event.name"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>
+                <var-name>minlength</var-name>
+                <var-value>3</var-value>   
+            </var>  
+         </field>
+      </form>
+      <form name="create">
+         <field property="code"  depends="required,minlength,exist">
+      	   	<arg0 key="event.code"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>   
+                <var-name>minlength</var-name>   
+                <var-value>4</var-value>   
+            </var>  
+         </field>    
+         <field  property="name" depends="required,minlength,exist">
+      	   	<arg key="event.name"/>
+         	<arg1 key="${var:minlength}"/>
+         	<var>
+                <var-name>minlength</var-name>
+                <var-value>3</var-value>   
+            </var>  
+         </field>
+      </form>
+   </formset>   
+</form-validation>

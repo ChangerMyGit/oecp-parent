@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>视图测试页</title>
+		<link rel="stylesheet" type="text/css" href="../../../extjs/resources/css/ext-all.css" />
+		<link rel="stylesheet" type="text/css" href="../../../extjs/ux/css/ux-all.css" />
+		<link rel="stylesheet" type="text/css" href="../../../ext-oecp/css/ext-oecp.css" />
+		
+		<script type="text/javascript" src="../../../extjs/adapter/ext/ext-base.js"></script>
+		<script type="text/javascript" src="../../../ext-oecp/core/ExtUtil.js"></script>
+		<script type="text/javascript" src="../../../extjs/ext-all-debug.js"></script>
+		<script type="text/javascript" src="../../../extjs/ux/ux-all-debug.js"></script>
+		<script type="text/javascript" src="UIViewLoader.js"></script>
+		<script type="text/javascript">
+		Ext.onReady(function() {
+			__ctxPath = 'http://localhost:8080/oecp-platform';
+			me = {id:123};
+			var loader = new OECP.uiview.Loader({functionCode:'SYS_0011',renderTo:'test',
+				flushListView : function(config){
+					me.config = config;
+				}
+			});
+			loader.load();
+		});
+		</script>
+	</head>
+	<body>
+	<div id="test"></div>
+	</body>
+</html>
